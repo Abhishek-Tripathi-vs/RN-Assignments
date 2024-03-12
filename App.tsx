@@ -1,20 +1,16 @@
-import { View,Text } from "react-native";
-import Notifications from "./screens/Notifications";
-import NotificationsNone from "./screens/NotificationsNone";
-import DActive from "./screens/DActive";
-
+import { SafeAreaView } from "react-native";
+import Notifications from "./src/screens/notifications/Notifications";
+import NotificationsNone from "./src/screens/notifications-none/NotificationsNone";
+import DActive from "./src/screens/d-active/DActive";
 
 function App() {
   return (
-   <View>
-    {/* <Notifications/> */}
-    {/* <NotificationsNone/> */}
-    <DActive/>
-
-
-   </View>
+    <SafeAreaView>
+      <Notifications />
+      {/* <NotificationsNone /> */}
+      {/* <DActive /> */}
+    </SafeAreaView>
   );
 }
 
 export default App;
-
