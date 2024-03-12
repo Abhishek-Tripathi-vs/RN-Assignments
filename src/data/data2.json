@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "title" : "Outer Ring",
+        "image" : "../../images/scene1.png",
+        "color" : "#D72B6A"
+    },
+    {
+        "id" : 2,
+        "title" : "Focus",
+        "image" : "../images/scene2.png",
+        "color" : "#176E6D"
+    },
+    {
+        "id" : 3,
+        "title" : "Follow",
+        "image" : "../images/scene3.png",
+        "color" : "#292F36"
+    },
+    {
+        "id" : 4,
+        "title" : "Scan",
+        "image" : "../images/scene4.png",
+        "color" : "#B96204"
+    },
+    {
+        "id" : 5,
+        "title" : "Square",
+        "image" : "../images/scene5.png",
+        "color" : "#176E6D"
+    },
+    {
+        "id" : 6,
+        "title" : "Outer Ring",
+        "image" : "../images/scene1.png",
+        "color" : "#D72B6A"
+    }
+]
