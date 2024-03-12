@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, Image, TouchableWithoutFeedback, FlatList } from "react-native";
+import {
+  View,
+  Text,
+  Image,
+  TouchableWithoutFeedback,
+  FlatList,
+} from "react-native";
 import notificationData from "../../data/data1.json";
 import TopNav from "../../components/TopNav";
 import styles from "./notifications-styles";
 import { formatTimeAgo } from "../../utils/timeUtils";
 
-
-function NotificationsScreen() {
+function Notifications() {
   const imagePaths = {
     Reflection: require("../../assets/images/Reflection.png"),
     Reminder: require("../../assets/images/Reminder.png"),
@@ -69,4 +74,5 @@ function NotificationsScreen() {
     </View>
   );
 }
-export default NotificationsScreen;
+
+export default Notifications;

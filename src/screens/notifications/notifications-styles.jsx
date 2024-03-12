@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   notificationText: {
     fontWeight: "bold",
     fontSize: 14,
+    fontFamily: "Quicksand",
   },
   timerText: {
     color: colors.timerTextColor,
